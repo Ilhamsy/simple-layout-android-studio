@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d3d3d3"
+    android:padding="30dp">
+    <TextView
+        android:fontFamily="sans-serif-black"
+        android:textStyle="italic"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:text="Gojek (sebelumnya ditulis GO-JEK) merupakan sebuah perusahaan teknologi asal Indonesia yang melayani angkutan melalui jasa ojek. Perusahaan ini didirikan pada tahun 2010 di Jakarta oleh Nadiem Makarim. Saat ini, Gojek telah tersedia di 50 kota di Indonesia. Selain di Indonesia, layanan Gojek kini telah tersedia di Thailand, Vietnam dan Singapura"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/gojek"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:id="@+id/grab"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="Grab (sebelumnya dikenal sebagai GrabTaxi) merupakan salah satu platform layanan on demand yang bermarkas di Singapura. Berawal dari layanan transportasi, perusahaan tersebut kini telah mempunyai layanan lain seperti pengantaran makanan dan pembayaran yang bisa diakses lewat aplikasi mobile."/>
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="200dp"
+        android:src="@drawable/grab"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="false"
+        android:layout_alignTop="@+id/grab"/>
+
+</RelativeLayout>
